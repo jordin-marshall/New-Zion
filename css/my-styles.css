@@ -89,6 +89,7 @@ body, html{
     padding: 0;
     margin: auto;
     overflow-x: hidden;
+    
 }
 html{
     /*overflow-x: hidden;*/
@@ -230,10 +231,10 @@ header{
 
 
 .main-logo{
-    width:280px;
+    width:267px;
     height:150px;
     margin: 0;
-    margin-left: 25px;
+    margin-left: 20px;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -401,9 +402,15 @@ header{
 
 .prayer h3, .giving h3{
     font-family: Mohave;
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 1.5em;
 }
+
+ .giving h3{
+       
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 .prayer p, .giving p{
     font-family: Glamors;
@@ -462,6 +469,7 @@ header{
     border-top: solid 24px turquoise;
     border-bottom: solid 24px turquoise;
     overflow-y: scroll;
+    
 
 }
 #church-back{
@@ -587,6 +595,9 @@ footer h3,h4{
 
 
 **********************************************************************************************/
+.Ministry p{
+    padding-right: 30px;
+}
 
 .Ministry{
     margin: 0;
@@ -847,6 +858,7 @@ footer h3,h4{
     }
 }
 
+
 @media (max-width:767px){
     .church, .service-times{
         background-attachment: none;
@@ -880,6 +892,8 @@ footer h3,h4{
     .header-links ul{
         position: relative;
     }
+    
+    
 }
 
 @media (max-width:714px){
@@ -898,7 +912,7 @@ footer h3,h4{
         font-size: 1.5em;
     } 
    
-
+   
 }
 
 @media (max-width:670px){
