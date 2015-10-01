@@ -922,7 +922,8 @@ footer h3,h4{
     }
     
     .Ministry p{
-    padding-right: 0px;
+    padding-right: 5px;
+        font-size: .7;
 }
 }
     
@@ -974,4 +975,13 @@ footer h3,h4{
         margin-bottom: 20px;
         margin-top: 20px;
     }
+}
+    
+@media (max-width:350px){
+    .church li{
+        width: 38%;
+    }  
+    .main-logo{
+        margin-left: 0;
+    }   
 }
