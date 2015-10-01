@@ -1,0 +1,959 @@
+/**********************************************
+
+                Typography
+
+**********************************************/
+@font-face{
+    font-family: headlineArchive;
+    src: url(../fonts/Headlines/archive/Archive.otf);   
+}
+
+@font-face{
+    font-family: headlineBiko;
+    src: url(../fonts/Headlines/biko/Biko_Black.otf);   
+}
+
+@font-face{
+    font-family: headlineDuke;
+    src: url(../fonts/Headlines/Duke_Personal_License/Duke_Shadow.otf);   
+}
+
+@font-face{
+    font-family: textAbraham;
+    src: url(../fonts/Text/AbrahamLincoln_Personal_License/AbrahamLincoln.ttf);   
+}
+
+@font-face{
+    font-family: textCantarell;
+    src: url(../fonts/Text/cantarell-fontfacekit/AbrahamLincoln.ttf);   
+}
+
+@font-face{
+    font-family: Aleo;
+    src: url(../fonts/aleo-lightitalic-webfont.ttf);
+}
+
+@font-face{
+    font-family: Aleo2;
+    src: url(../fonts/aleo-light-webfont.ttf);
+   
+}
+
+
+
+@font-face{
+    font-family: Mohave;
+    src:url(../fonts/New/Mohave/Mohave-SemiBold_Italics.otf);
+}
+
+@font-face{
+    font-family: Glamors;
+    src:url(../fonts/New/Glamor/Glamor-LightExtendedItalic.ttf);
+}
+
+h1{
+    margin: 0;
+}
+
+
+/**********************************************
+
+       Positing/Containers         
+
+**********************************************/
+.container{
+    width:90%;
+   
+}
+
+
+
+
+
+
+/**********************************************
+
+       General         
+
+**********************************************/
+*{
+    
+    margin-right: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    padding-right: 0;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    overflow-x: hidden;
+}
+html{
+    /*overflow-x: hidden;*/
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width:100%;
+    margin: auto;
+   
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button, .icon-bar{ 
+    background-color: black;
+}
+
+.icon-bar {
+   background-color:#FFF !important;
+    color: black !important;
+    
+}
+
+.navbar-toggle{
+    background-color:#000 !important;
+}
+
+.row{
+    padding-right: 0;
+}
+
+.col-lg-6{
+    padding-right: 0;
+}
+/**********************************************
+
+          Navbar     
+
+**********************************************/
+
+.header-info{
+    margin-right:50px;
+    overflow: auto;
+}
+
+.header-info ul li, .header-info a span, .nav li a{
+    display: inline-block;
+    color: whitesmoke;
+    text-shadow: 2px 0 10px black;
+    font-weight: 800;
+}
+
+span{
+    margin-top: 10px;
+}
+
+.header-info ul li{
+    font-family: textAbraham;
+    font-size: 1.5em;
+}
+
+.header-links li{
+    font-family: Aleo2;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.header-links {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    /*border-bottom: dotted 2px; */
+    
+}
+
+.header-links ul{
+   /* margin-left: 25%;*/
+    position: absolute;
+    white-space: nowrap;
+    left: 30%
+}
+
+.header-info ul li{
+    padding: 0 5px 0 5px;
+}
+
+.header-info p{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.header-info li a {
+    background-color: rgba(0,0,0,.5);  
+    
+    padding: 10px;
+}
+
+.dropdown-menu{
+    background-color: rgba(0,0,0,.9);
+   
+}
+
+.dropdown-menu a{
+     text-shadow: 2px 2px 2px black;
+}
+
+.selected{
+    background-color: rgba(0,0,0,.5);
+}
+/**********************************************
+
+             Header  
+
+**********************************************/
+header{
+    background-color: #DBDBDB;
+    border-top: solid 4px aliceblue;
+    border-bottom: solid 2px black;
+    background:url(../bkground/turquoise_three-min.jpg) ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.main-logo{
+    width:280px;
+    height:150px;
+    margin: 0;
+    margin-left: 25px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url('../img/NZ%20Cross&Text2-min.png') no-repeat;
+    background-size: contain;
+    float: left;
+    display: inline;   
+}
+.mission-statement{
+    width: 90%;
+   border-top: dotted 2px; 
+    margin: auto;
+}
+.mission-statement h3{
+    color: lightcyan;
+    text-shadow: 2px 2px 2px black;
+}
+
+.mission-statement h3{
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+#nav {
+    float: right;
+   
+       width:75%;
+    
+    
+}
+
+.floatright {
+   
+    float: right;
+    text-align: right;
+   
+}
+
+.top, .top a{
+     margin-top: 10px;
+    color:aliceblue;
+}
+
+.top a:hover{
+    background-color: blanchedalmond;
+}
+
+
+/**********************************************
+
+               Church Photo 
+
+**********************************************/
+.church-pic{
+    height:450px;
+    background: url(../img/church_400.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    border-bottom: solid 2px aliceblue;
+}
+
+.church-pic li{
+    margin-left:7em;
+    list-style:disc;
+    font-family: headlineArchive;
+}
+
+.prison img{
+    height:160px;
+}
+/**********************************************
+
+         Rev A       
+
+**********************************************/
+
+
+
+
+.revInfo{
+    height:400px;
+    background-color: white;
+    border-top: solid 3px rgba(0,0,0,.9);
+    border-bottom: solid 3px rgba(0,0,0,.4);
+    text-align: center;
+    color: black;
+    background-image: url("../revA/Rev-min.png");
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 500px;
+    
+   
+    
+}
+
+.revInfo h1{
+     font-family: headlineDuke; 
+     font-size: 6em;
+    padding-top: .9em;
+   
+}
+
+.revInfo h4{
+    font-family: textAbraham;
+    font-size: 1.7em;
+    padding-top: .4em;
+    padding-bottom: 1em;
+    text-shadow: 2px 0 2px lightgray;
+    color: black;
+}
+
+.revInfo p{
+    font-size: 1.5em;
+    width: 150px;
+    margin:  auto;
+    padding-top: 8px;
+    text-align: center center;
+}
+
+.revButton {
+    height:50px;
+    border: solid 2px;
+    border-radius: 5% 5% 5% 5%;
+    font-family: serif;
+}
+
+.revButton:hover{
+    background-color: lightgray;
+    box-shadow: 5px 5px 50px black;
+}
+
+.revInfo a {
+    color: black;
+    text-decoration: none;
+}
+/**********************************************
+
+             Prayer   
+
+**********************************************/
+.prayer{
+    background: #F57D66;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    background-image: url("../img/praying-25596_640-min.png");
+    background-repeat: no-repeat;
+    background-size: 20% 80%;
+    background-position:95%;
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    text-shadow: 2px 0 2px black;
+    padding-bottom: 150px;
+    
+ 
+}
+
+
+.prayer h1, .giving h1{
+    font-family: Aleo;
+    padding: 2em 0 .9em 0;
+}
+
+.prayer h3, .giving h3{
+    font-family: Mohave;
+    font-size: 2em;
+    padding-bottom: 1.5em;
+}
+
+.prayer p, .giving p{
+    font-family: Glamors;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    width: 250px;
+    margin: auto;
+}
+
+.prayerButton{
+    padding-top: 20px;
+    color: black;
+    text-shadow: none;
+    border: solid 2px rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    
+}
+
+.prayer a, .giving a{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.prayerButton:hover{
+    color: whitesmoke;
+    background: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.giving{
+    background: #FFF;
+    color: black;
+    text-align: center;
+    border-top: solid 3px black;
+    text-shadow: 2px 0 2px gray;
+    padding-bottom: 150px;
+    border-top: solid 24px turquoise;
+    border-bottom: solid 24px turquoise;
+}
+
+
+/**********************************************
+
+            Church 
+
+**********************************************/
+.church{
+    height:100%;
+    background: url("../img/processedChurch-min.png") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    list-style: none;
+    margin: auto;
+    border-top: solid 24px turquoise;
+    border-bottom: solid 24px turquoise;
+    overflow-y: scroll;
+
+}
+#church-back{
+    height: 435px;
+    background-color: rgba(0,0,0,.5);
+    width: 95%;
+    
+}
+
+#church-back img{
+    height: 160px;
+}
+.church ul{
+    padding-top: 7%;
+    margin: auto;
+    padding-left:4%;
+    
+}
+
+.church li{
+	display: inline-block;
+    float: left;
+    width: 20%;
+    margin: 2%;
+    border: solid 4px #47d5f5;
+	
+}
+
+.church li img{
+        width: 100%;
+    }
+
+.church ul:nth-child(5n){
+	clear: left;
+}
+
+.church a img:hover{
+    box-shadow: 10px 10px 50px white;
+}
+
+/**********************************************
+
+                Service Times
+
+**********************************************/
+.service-times{
+    text-align: center;
+    background: url("../img/church%20times-min.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    list-style: none;
+    color: aliceblue;
+    text-shadow: 3px 2px 4px black;
+    padding-top: 80px;
+    border-top: solid 20px whitesmoke;
+    border-bottom: solid 20px silver;
+    padding-bottom: 50px;
+    overflow-y: scroll;
+}
+
+.service-times p{
+    font-size: 1.3em;
+    font-family: Aleo2;
+    padding-top: 10px;
+    text-shadow: 2px 2px  rgba(0,0,0,.9);;
+   
+}
+
+.service-times h3{
+    font-size: 2.8em;
+    font-family: Mohave;
+    line-height: 2em;
+    width:40%;
+    box-shadow: 2px 2px 10px black;
+    border: solid;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+/**********************************************
+
+                Footer
+
+**********************************************/
+footer{
+    padding: 50px 0 50px 0;
+    text-align: center; 
+    margin-bottom: 20px;
+    border-top: solid silver;
+    background-color: black
+}
+
+.church-f, .rev-f, .office-f{
+    padding-bottom: 50px;
+    padding-right:0;
+}
+
+
+
+footer p{
+    font-family: Aleo;
+    color:skyblue
+}
+
+footer h3,h4{
+    color: silver;
+    font-family: Aleo2;
+}
+/**********************************************
+
+                
+
+**********************************************/
+
+/********************************************************************************************
+
+    
+
+                            Ministries
+
+
+
+
+
+**********************************************************************************************/
+
+.Ministry{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    background-color: aliceblue;
+    font-family: headlineBiko;
+   
+    border-top: solid 10px black;
+    border-bottom: solid 24px turquoise;
+}
+
+
+
+.Ministry img{
+    height:320px;
+    width: 500px;
+}
+
+.mission-body{
+   
+    width:85%;
+    margin: auto;
+   
+    padding-bottom: 50px;
+    
+}
+
+ .theMission{
+    font-size: 1.8em;
+    font-family: textAbraham;
+    text-align: center;
+    padding-top:50px;
+    padding-right: 30px;
+   
+}
+
+.theMission, .Miss{
+    padding-left: 20px;
+    
+}
+
+
+
+.Miss{
+    font-family: textAbraham;
+    font-size: 1.5em;
+}
+
+.Miss span{
+ font-weight: bold
+}
+                
+.ministry-h1{
+    font-size: 4em;
+    padding-top: 50px;
+}
+
+.Ministry h1{
+    color: lightseagreen;
+     text-shadow: 2px 2px 2px black;
+}
+
+.Ministry p{
+    padding-bottom: 10px;
+}
+
+.rowMinistry{
+
+    padding-bottom: 100px;
+}
+/**********************************************
+
+               Mary & Martha
+**********************************************/
+
+.maryMartha .theMission{
+    padding-top: 1em;
+}
+
+.iframe{
+    height:100%;
+    text-align: center;
+    background-color:rgba(0,0,0,.9);
+    padding-top: 20px;
+    color: white;
+    font-family: Aleo2
+}
+
+.mary{
+    margin-top: 50px;
+}
+
+/**********************************************
+
+              Crushites
+**********************************************/
+.crush{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.crushp{
+    padding-right: 50px;
+}
+
+/**********************************************
+
+               Prison
+**********************************************/
+.prison{
+    font-size: 1.4em;
+    padding-right: 50px;
+}
+.Miss2{
+     padding-top: 20px;
+    padding-right: 40px;
+}
+
+.sec{
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+
+/**********************************************
+
+              Second Mile
+**********************************************/
+.secondMile{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+/**********************************************
+
+              Mission Council
+**********************************************/
+.missioncouncil{
+    text-align: left;
+    font-family: textCantarell;
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+/**********************************************
+
+              Giving Form
+**********************************************/
+.giveCenter{
+    text-align: center;
+    width: 100%;
+    font-size: 1.4em;
+    font-family: textCantarell;
+}
+
+.givingform{
+    padding: 10px 0 0px 0;
+    text-align: center;
+}
+
+.gform{
+    padding-top: 50px;
+}
+
+/**********************************************
+
+         Rev A
+**********************************************/
+
+.revbio img, .bridgebio img {
+  max-width:200px;
+  margin: 0 auto 30px;
+  border-radius: 0%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.revbio{
+    padding: 80px 0 0px 50px ;
+    
+    border-top: solid 12px black
+}
+
+.revbio p, .bridgebio p{
+   padding-top: 30px;
+    font-family: Aleo2;
+    font-weight: 500;
+    
+}
+
+.revbioborder, .revbioboder2{
+    border-top: dotted 1px;
+    margin: auto;
+}
+
+.revbioborder{
+    width: 90%;
+}
+
+.revbioborder2{
+    padding-bottom: 80px;
+    border-bottom: solid 12px turquoise
+}
+
+.bridgebio{
+    padding: 80px 0 50px 50px ;
+    
+}
+
+/**********************************************
+
+         Contact
+**********************************************/
+.contactform{
+    text-align: center;
+}
+
+.contactus{
+    padding-top: 80px;
+    text-align: center;
+    height: 800px;
+}
+
+.contactus p, .contactus h1{
+    font-family: Aleo
+}
+
+/**********************************************
+
+         Media Queries
+**********************************************/
+@media (max-width:1135px){
+    .revInfo h1,.revInfo h2, .revInfo h4,  .revInfo a{
+        text-align: none;
+        padding-left: 30%;
+       
+    }
+    
+    .revButton{
+        border: none;
+    }
+    
+    .revInfo p{
+        margin-right: 24%;
+        border: solid 1px;
+    }
+}
+
+@media (max-width:959px){
+    .service-times h3{
+        
+        width: 50%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+       
+    }
+}
+
+@media (max-width:767px){
+    .church, .service-times{
+        background-attachment: none;
+    }
+    .church{
+        height: 100%;
+        background-attachment: none;
+        padding-bottom: 20px;
+    }
+   
+    
+    .church li{
+        width: 44%;
+        margin-left: 14px;
+        margin-right: 20px;
+        
+    }
+    
+    
+    #church-back{
+        height:780px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .service-times h3{
+        
+        width: 70%;
+    
+}
+    .header-links ul{
+        position: relative;
+    }
+}
+
+@media (max-width:714px){
+    
+    
+    .revInfo h1{
+        font-size: 4em;
+        padding-top: 100px;
+    }
+    
+    .revInfo h2{
+        font-size: 1.5em;
+    }
+    
+    .revInfo h4{
+        font-size: 1.5em;
+    } 
+   
+
+}
+
+@media (max-width:670px){
+    .church li{
+        width: 40%;
+        margin-left: 4%;
+    }
+}
+    
+@media (max-width:550px){
+    .service-times h3{
+        font-size: 2.2em;
+        width: 80%;
+}
+
+@media (max-width:520px){
+    .revInfo{
+        background-position: left;
+    }
+    .revInfo h1{
+        font-size: 3.5em;
+        padding-right: 10px;
+    }
+    
+    .revInfo h2{
+        font-size: 1.1em;
+    }
+    
+    
+     .revInfo h4{
+        font-size: 1.3em;
+         padding-right: 9px;
+    }
+    
+    .revInfo p{
+        margin-right: 18%;
+        border: solid 1px;
+    }
+    .service-times{
+        background-size: 100% 100%;
+    }
+    .church{
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width:410px){
+    .church li{
+        width: 39%;
+    }
+    
+    .service-times h3{
+        font-size: 1.8em;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
