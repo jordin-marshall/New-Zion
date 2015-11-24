@@ -23,10 +23,7 @@
     src: url(../fonts/Text/AbrahamLincoln_Personal_License/AbrahamLincoln.ttf);   
 }
 
-@font-face{
-    font-family: textCantarell;
-    src: url(../fonts/Text/cantarell-fontfacekit/AbrahamLincoln.ttf);   
-}
+
 
 @font-face{
     font-family: Aleo;
@@ -88,11 +85,20 @@ body, html{
     margin: 0;
     padding: 0;
     margin: auto;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+   
     
 }
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+} width: 100%;
+
+
+
 html{
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 li{
@@ -245,8 +251,11 @@ header{
 }
 .mission-statement{
     width: 90%;
+    
    border-top: dotted 2px; 
     margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
 }
 .mission-statement h3{
     color: lightcyan;
@@ -304,7 +313,7 @@ header{
 }
 
 .prison img{
-    height:160px;
+    height:150px;
 }
 /**********************************************
 
@@ -316,7 +325,7 @@ header{
 
 
 .revInfo{
-    height:400px;
+    height:100px;
     background-color: white;
     border-top: solid 3px rgba(0,0,0,.9);
     border-bottom: solid 3px rgba(0,0,0,.4);
@@ -326,7 +335,7 @@ header{
     background-size: 100% 100%;;
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 500px;
+    padding-bottom: 450px;
     
    
     
@@ -469,9 +478,18 @@ header{
     border-top: solid 24px turquoise;
     border-bottom: solid 24px turquoise;
     overflow-y: scroll;
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
     
 
 }
+
+
+
+
 #church-back{
     height: 435px;
     background-color: rgba(0,0,0,.5);
@@ -480,7 +498,7 @@ header{
 }
 
 #church-back img{
-    height: 160px;
+    height: 160px; 
 }
 .church ul{
     padding-top: 7%;
@@ -528,6 +546,11 @@ header{
     border-bottom: solid 20px silver;
     padding-bottom: 50px;
     overflow-y: scroll;
+    -moz-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
 }
 
 .service-times p{
@@ -760,10 +783,24 @@ footer h3,h4{
     text-align: center;
 }
 
+
+
 .gform{
     padding-top: 50px;
 }
 
+#givingcontainer{
+    margin: 0 auto !important;
+    
+}
+
+#givingcontainer tr{
+    float: none;
+}
+
+form{
+   text-align: center;
+}
 /**********************************************
 
          Rev A
@@ -831,6 +868,13 @@ footer h3,h4{
 
          Media Queries
 **********************************************/
+@media (max-width:1144px){
+    .mission-statement{
+        margin-left: 2%;
+    }
+
+}
+
 @media (max-width:1135px){
     .revInfo h1,.revInfo h2, .revInfo h4,  .revInfo a{
         text-align: none;
@@ -962,25 +1006,46 @@ footer h3,h4{
     .church{
         background-size: 100% 100%;
     }
+    .church li{
+        width: 80%;
+        margin-left: 9%
+    }
+    
+    #church-back{
+        background: none;
+    }
+    
+    .mission-statement{
+        margin-left: 0%;
+    }
 }
 
 @media (max-width:410px){
     .church li{
-        width: 39%;
+        width: 80%;
     }
+    .revInfo h1{
+        padding-top: 50px;
     
+    }
     .service-times h3{
         font-size: 1.8em;
         width: 80%;
         margin-bottom: 20px;
         margin-top: 20px;
     }
+    .revInfo p {
+        margin-right: 50px;
+    }
+    
 }
     
 @media (max-width:350px){
     .church li{
-        width: 38%;
+        width: 70%;    
     }  
+    
+    
     .main-logo{
         margin-left: 0;
     }   
